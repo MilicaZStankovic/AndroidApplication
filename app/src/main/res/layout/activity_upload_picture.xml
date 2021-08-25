@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/slika4"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Napravi uspomenu"
+        android:gravity="center"
+        android:background="#c8a084"
+        android:padding="10dp"
+        android:textColor="#102332"
+        android:textStyle="bold"
+        android:textSize="18sp"></TextView>
+
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/darker_gray"
+        android:padding="10dp"
+        android:text="Dodaj fotografiju"
+        android:textAllCaps="false"></Button>
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c8a084"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAllCaps="false"
+        android:text="Sacuvaj"></Button>
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c8a084"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAllCaps="false"
+        android:text="Koristi kameru"></Button>
+
+    <ImageView
+        android:id="@+id/picEvent"
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:layout_marginTop="20dp"></ImageView>
+
+
+</LinearLayout>

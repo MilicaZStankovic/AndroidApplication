@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <menu>
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/termin"
+        android:title="zakazi termin"
+        android:icon="@drawable/ic_baseline_event_24"
+        android:orderInCategory = "100"></item>
+
+
+    <item
+        android:id="@+id/utisak"
+        android:title="Rezultat usluge"
+        android:icon="@drawable/ic_baseline_crop_original_24"
+        android:orderInCategory = "100"/>
+
+    <item
+        android:id="@+id/ocena"
+        android:title="Oceni Aplikaciju"
+        android:icon="@drawable/ic_baseline_star_half_24"
+        android:orderInCategory = "100"/>
+
+
+    <item
+        android:id="@+id/Logoout"
+        android:title="Log out"
+        android:icon="@drawable/ic_baseline_toggle_off_24"
+        android:orderInCategory = "100"
+        />
+    <item
+        android:id="@+id/mapa"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="Mapa"/>
+    <item
+        android:id="@+id/youT"
+        android:title="youYube"
+        android:icon="@drawable/ic_baseline_music_note_24"
+        android:orderInCategory = "100"></item>
+    <item
+        android:id="@+id/wapp"
+        android:title="Whatapps"
+        android:icon="@drawable/ic_baseline_perm_phone_msg_24"
+        android:orderInCategory = "100"></item>
+</group>
+
+
+</menu>
+
+</menu>
